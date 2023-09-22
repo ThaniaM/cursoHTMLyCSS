@@ -1,0 +1,21 @@
+
+/*etiquetas p que esten cercas(enseguida) de un h2*/
+
+/* h2 + p {  
+  color: red;
+} */
+
+/*todos los parrafos que tengan como hermano general un h2 los hermanos generales estan dendro del div*/
+/* h2 ~ p {
+  color: red;
+} */
+
+/* la etiqueta p que sea hija directa de la etiqueta div que este dentro del padre*/
+div > p {
+  color: red;
+}
+
+/*descendiente que este dentro de la etiqueta div*/
+div p {
+  color: aqua;
+} 
