@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.padre {
+  border: 20px  black ;
+  display: inline-block;
+  border-radius:22px;
+  position: relative;
+  margin: 60px;
+}
+
+/* #big {
+  background-color:gray;
+  padding: 20px;
+  overflow: hidden;
+} */
+
+#small {
+  background-color: blue;
+  padding: 20px;
+  position: absolute;
+  border-radius:14px;
+  top: -15px;
+  left: 32%;
+}
+
+#big {
+  margin: 2px;
+  background-color: gray;
+  width:300px;
+  height:100px;
+  border-radius:22px;
+  min-height: 400px;
+  min-width: 400px;
+  
+}
+
+p {
+  margin: 2px;
+  padding: 50px;
+  text-align: center;
+}
